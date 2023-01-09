@@ -26,19 +26,19 @@ class DAWalkThroughScreenState extends State<DAWalkThroughScreen> {
       WalkThroughModelClass(
           title: 'Get coupled!',
           image:
-              'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.5.jpg'),
+              'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.5.jpg'),
     );
     list.add(
       WalkThroughModelClass(
           title: 'Meet new people!',
           image:
-              'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg'),
+              'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg'),
     );
     list.add(
       WalkThroughModelClass(
           title: 'No more lonely days!',
           image:
-              'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.7.jpg'),
+              'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.7.jpg'),
     );
   }
 

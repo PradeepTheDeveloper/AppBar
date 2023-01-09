@@ -58,7 +58,7 @@ class StripePaymentScreenState extends State<StripePaymentScreen> {
                 paymentIntentClientSecret: res.client_secret!,
                 testEnv: true,
                 merchantCountryCode: 'IN',
-                merchantDisplayName: 'Prokit Flutter',
+                merchantDisplayName: 'DeveloperKit Flutter',
                 customerId: '1',
                 customerEphemeralKeySecret: res.client_secret!,
                 setupIntentClientSecret: res.client_secret!,

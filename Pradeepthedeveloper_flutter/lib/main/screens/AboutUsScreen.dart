@@ -48,7 +48,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
               color: appColorPrimary,
               onTap: () {
                 launch(
-                    'https://codecanyon.net/item/prokit-flutter-app-ui-design-templete-kit/25787190?s_rank=1');
+                    'https://codecanyon.net/item/DeveloperKit-flutter-app-ui-design-templete-kit/25787190?s_rank=1');
               },
               child: Row(
                 mainAxisSize: MainAxisSize.min,

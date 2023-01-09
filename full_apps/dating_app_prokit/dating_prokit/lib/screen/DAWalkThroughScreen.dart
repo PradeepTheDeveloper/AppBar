@@ -23,13 +23,22 @@ class DAWalkThroughScreenState extends State<DAWalkThroughScreen> {
 
   Future<void> init() async {
     list.add(
-      WalkThroughModelClass(title: 'Get coupled!', image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.5.jpg'),
+      WalkThroughModelClass(
+          title: 'Get coupled!',
+          image:
+              'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.5.jpg'),
     );
     list.add(
-      WalkThroughModelClass(title: 'Meet new people!', image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg'),
+      WalkThroughModelClass(
+          title: 'Meet new people!',
+          image:
+              'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg'),
     );
     list.add(
-      WalkThroughModelClass(title: 'No more lonely days!', image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.7.jpg'),
+      WalkThroughModelClass(
+          title: 'No more lonely days!',
+          image:
+              'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.7.jpg'),
     );
   }
 
@@ -56,7 +65,9 @@ class DAWalkThroughScreenState extends State<DAWalkThroughScreen> {
                     width: 250,
                   ).cornerRadiusWithClipRRect(20),
                   22.height,
-                  Text(e.title!, style: boldTextStyle(size: 22), textAlign: TextAlign.center),
+                  Text(e.title!,
+                      style: boldTextStyle(size: 22),
+                      textAlign: TextAlign.center),
                   8.height,
                   Text(
                     'Lorem ipsum dolor sit amet, \n consectetur adipiscing elit.',

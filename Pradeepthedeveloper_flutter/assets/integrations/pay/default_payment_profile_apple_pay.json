@@ -2,7 +2,7 @@
   "provider": "apple_pay",
   "data": {
     "merchantIdentifier": "merchant.com.iqonic.prokitflutter1",
-    "displayName": "Prokit",
+    "displayName": "DeveloperKit",
     "merchantCapabilities": [
       "3DS",
       "debit",

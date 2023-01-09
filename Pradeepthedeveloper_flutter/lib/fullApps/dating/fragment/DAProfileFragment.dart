@@ -60,7 +60,7 @@ class DAProfileFragmentState extends State<DAProfileFragment> {
                 children: [
                   16.height,
                   commonCachedNetworkImage(
-                    'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.6.jpg',
+                    'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.6.jpg',
                     fit: BoxFit.cover,
                     height: 150,
                     width: 150,

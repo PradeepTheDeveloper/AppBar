@@ -43,7 +43,9 @@ class DAProfileFragmentState extends State<DAProfileFragment> {
           titleTextStyle: boldTextStyle(size: 25),
           showBack: false,
           actions: [
-            Icon(Icons.settings, color: appStore.isDarkModeOn ? white : black).paddingOnly(right: 16).onTap(
+            Icon(Icons.settings, color: appStore.isDarkModeOn ? white : black)
+                .paddingOnly(right: 16)
+                .onTap(
               () {
                 DASettingScreen().launch(context);
               },
@@ -58,7 +60,7 @@ class DAProfileFragmentState extends State<DAProfileFragment> {
                 children: [
                   16.height,
                   commonCachedNetworkImage(
-                    'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.6.jpg',
+                    'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.6.jpg',
                     fit: BoxFit.cover,
                     height: 150,
                     width: 150,
@@ -103,7 +105,8 @@ class DAProfileFragmentState extends State<DAProfileFragment> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text('Gallery', style: boldTextStyle()),
-                  Text('View All', style: primaryTextStyle(color: primaryColor)).onTap(
+                  Text('View All', style: primaryTextStyle(color: primaryColor))
+                      .onTap(
                     () {
                       DAProfileViewAllScreen().launch(context);
                     },

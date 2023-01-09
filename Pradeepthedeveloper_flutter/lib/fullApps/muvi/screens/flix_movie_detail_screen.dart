@@ -103,7 +103,7 @@ class MovieDetailScreenState extends State<MovieDetailScreen>
         children: [
           VideoPlayer(_controller),
           networkImage(
-            "https://assets.iqonic.design/old-themeforest-images/prokit/images/muvi/items/poster_ek42.jpg",
+            "https://assets.iqonic.design/old-themeforest-images/DeveloperKit/images/muvi/items/poster_ek42.jpg",
             aWidth: double.infinity,
             aHeight: double.infinity,
             fit: BoxFit.cover,

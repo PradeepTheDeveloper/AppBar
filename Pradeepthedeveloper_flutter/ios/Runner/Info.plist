@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Prokit</string>
+	<string>DeveloperKit</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -45,17 +45,17 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Prokit app requires access to the Camera to upload your profile photo.</string>
+	<string>DeveloperKit app requires access to the Camera to upload your profile photo.</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Please authorize to use the app</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>DeveloperKit app requires address permission access to get the current location of the user instead of typing address manually.</string>
 	<key>NSLocationUsageDescription</key>
-	<string>Prokit app requires address permission access to get the current location of the user instead of typing address manually.</string>
+	<string>DeveloperKit app requires address permission access to get the current location of the user instead of typing address manually.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Prokit app requires address permission access to get the current location of the user instead of typing address manually.</string>
+	<string>DeveloperKit app requires address permission access to get the current location of the user instead of typing address manually.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Prokit app requires access to the photo library to upload your profile photo.</string>
+	<string>DeveloperKit app requires access to the photo library to upload your profile photo.</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>SKAdNetworkItems</key>

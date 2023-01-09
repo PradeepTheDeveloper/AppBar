@@ -109,7 +109,7 @@ class MovieDetail2ScreenState extends State<MovieDetail2Screen> {
                       background: Stack(
                         children: <Widget>[
                           networkImage(
-                              "https://assets.iqonic.design/old-themeforest-images/prokit/images/muvi/items/poster_ek42.jpg",
+                              "https://assets.iqonic.design/old-themeforest-images/DeveloperKit/images/muvi/items/poster_ek42.jpg",
                               aWidth: width,
                               aHeight: width * (16 / 11),
                               fit: BoxFit.cover),

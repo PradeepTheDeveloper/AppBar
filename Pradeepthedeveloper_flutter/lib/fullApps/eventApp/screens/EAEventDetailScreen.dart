@@ -178,7 +178,7 @@ class _EAEventDetailScreenState extends State<EAEventDetailScreen> {
                 children: [
                   CircleAvatar(
                     backgroundImage: NetworkImage(
-                      "https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.2.jpg",
+                      "https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.2.jpg",
                     ),
                     backgroundColor: white,
                     maxRadius: 30,

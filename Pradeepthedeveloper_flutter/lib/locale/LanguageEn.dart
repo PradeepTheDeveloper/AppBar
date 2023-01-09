@@ -156,9 +156,9 @@ class LanguageEn extends BaseLanguage {
 
   @override
   String get lblProkitUIDesignKit =>
-      'Prokit – Flutter App UI Design Template Kit';
+      'DeveloperKit – Flutter App UI Design Template Kit';
 
   @override
   String get lblAboutUsDescription =>
-      'As the name says, Prokit is the Biggest Flutter UI kit. It is the ultimate library of Flutter UI app templates combined into high-quality UI kit for Android developers and iOS developers. The collection consists of app UI kits, full apps, and UI themes. With it’s clean code and single code base, this set of mix App UI kit and UI themes, it is easily your standalone solution.';
+      'As the name says, DeveloperKit is the Biggest Flutter UI kit. It is the ultimate library of Flutter UI app templates combined into high-quality UI kit for Android developers and iOS developers. The collection consists of app UI kits, full apps, and UI themes. With it’s clean code and single code base, this set of mix App UI kit and UI themes, it is easily your standalone solution.';
 }

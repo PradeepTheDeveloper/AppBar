@@ -22,7 +22,7 @@ List<EAWalkThrough> walkThroughList = [
           "Connect with your friends, follow tastemakers and people who share your interest."),
   EAWalkThrough(
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/images/eventApp/pageview1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/images/eventApp/pageview1.jpg',
       title: "BOOK & SHARE",
       subtitle:
           "Book events so easy in this two steps ans share it with your friends."),
@@ -159,43 +159,43 @@ List<EAForYouModel> getMayKnowData() {
       name: "jose Lowe",
       add: "156 followers",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       fev: false));
   list.add(EAForYouModel(
       name: "Smit Jhon",
       add: "200 followers",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       fev: false));
   list.add(EAForYouModel(
       name: "Louisa Lyons",
       add: "230 followers",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.2.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.2.jpg',
       fev: false));
   list.add(EAForYouModel(
       name: "Hulda James",
       add: "100 followers",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.3.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.3.jpg',
       fev: false));
   list.add(EAForYouModel(
       name: "Bessie Mendoza",
       add: "150 followers",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.4.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.4.jpg',
       fev: false));
   list.add(EAForYouModel(
       name: "Matilda MCGuire",
       add: "260 followers",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       fev: false));
   list.add(EAForYouModel(
       name: "Harriett Coleman",
       add: "400 followers",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       fev: false));
   return list;
 }
@@ -368,7 +368,7 @@ List<EAReviewModel> reviewList() {
   list.add(EAReviewModel(
       name: "jose Lowe",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       fev: false,
       time: "3 Hours ago",
       rating: 4.3,
@@ -377,7 +377,7 @@ List<EAReviewModel> reviewList() {
   list.add(EAReviewModel(
       name: "Smit Jhon",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       fev: false,
       time: "4 Hours ago",
       rating: 1,
@@ -386,7 +386,7 @@ List<EAReviewModel> reviewList() {
   list.add(EAReviewModel(
       name: "Louisa Lyons",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.2.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.2.jpg',
       fev: false,
       time: "6 Hours ago",
       rating: 3.4,
@@ -395,7 +395,7 @@ List<EAReviewModel> reviewList() {
   list.add(EAReviewModel(
       name: "Hulda James",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.3.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.3.jpg',
       fev: false,
       time: "8 Hours ago",
       rating: 4,
@@ -404,7 +404,7 @@ List<EAReviewModel> reviewList() {
   list.add(EAReviewModel(
       name: "Bessie Mendoza",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.4.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.4.jpg',
       fev: false,
       time: "8 Hours ago",
       rating: 3,
@@ -412,7 +412,7 @@ List<EAReviewModel> reviewList() {
   list.add(EAReviewModel(
       name: "Matilda MCGuire",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       fev: false,
       time: "9 Hours ago",
       rating: 2,
@@ -420,7 +420,7 @@ List<EAReviewModel> reviewList() {
   list.add(EAReviewModel(
       name: "Harriett Coleman",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       fev: false,
       time: "12 Hours ago",
       rating: 3,
@@ -462,72 +462,72 @@ List<EAInboxModel> inboxList = [
   EAInboxModel(
       msg: "Fashion finest AW17 During London Fashion Week",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       name: "jose Lowe"),
   EAInboxModel(
       msg: "Bike New York For Bike Month",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       name: "Smit Jhon"),
   EAInboxModel(
       msg: "Washington Square Outdoor Art Exhibit",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.2.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.2.jpg',
       name: "Louisa Lyons"),
   EAInboxModel(
       msg: "Why Las vegas hotal Room For you",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.3.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.3.jpg',
       name: "Hulda James"),
   EAInboxModel(
       msg: "Bike New York For Bike Month",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.4.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.4.jpg',
       name: "Bessie Mendoza"),
   EAInboxModel(
       msg: "Washington Square Outdoor Art Exhibit",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       name: "Matilda MCGuire"),
   EAInboxModel(
       msg: "Why Las vegas hotal Room For you",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       name: "Harriett Coleman"),
   EAInboxModel(
       msg: "Fashion finest AW17 During London Fashion Week",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       name: "jose Lowe"),
   EAInboxModel(
       msg: "Bike New York For Bike Month",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       name: "Smit Jhon"),
   EAInboxModel(
       msg: "Washington Square Outdoor Art Exhibit",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.2.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.2.jpg',
       name: "Louisa Lyons"),
   EAInboxModel(
       msg: "Why Las vegas hotal Room For you",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.3.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.3.jpg',
       name: "Hulda James"),
   EAInboxModel(
       msg: "Bike New York For Bike Month",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.4.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.4.jpg',
       name: "Bessie Mendoza"),
   EAInboxModel(
       msg: "Washington Square Outdoor Art Exhibit",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       name: "Matilda MCGuire"),
   EAInboxModel(
       msg: "Why Las vegas hotal Room For you",
       image:
-          'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       name: "Harriett Coleman"),
 ];
 

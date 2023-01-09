@@ -24,9 +24,9 @@ const spacing_large = 24.0;
 const spacing_xlarge = 32.0;
 const spacing_xxLarge = 40.0;
 
-
 const isDarkModeOnPref = 'isDarkModeOnPref';
 
-const BaseUrl = 'https://assets.iqonic.design/old-themeforest-images/prokit';
+const BaseUrl =
+    'https://assets.iqonic.design/old-themeforest-images/DeveloperKit';
 
 const fontSemibold = 'Semibold';

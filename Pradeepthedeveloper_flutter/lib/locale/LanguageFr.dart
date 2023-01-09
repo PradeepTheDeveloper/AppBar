@@ -157,9 +157,9 @@ class LanguageFr extends BaseLanguage {
 
   @override
   String get lblProkitUIDesignKit =>
-      'Kit de modèle de conception UI de PROKIT - flutter app';
+      'Kit de modèle de conception UI de DeveloperKit - flutter app';
 
   @override
   String get lblAboutUsDescription =>
-      'Comme le nom le dit, PROKIT est le plus grand kit d\'interface utilisateur à flutter. C\'est la bibliothèque ultime des modèles d\'applications UI de flutter combinés dans un kit d\'interface utilisateur de haute qualité pour les développeurs Android et les développeurs iOS. La collection se compose de kits d\'interface utilisateur, d\'applications complètes et de thèmes d\'interface utilisateur. Avec sa base de code propre et de code unique, cet ensemble de kit d\'application d\'applications et de thèmes d\'UI de mélange, c\'est facilement votre solution autonome.';
+      'Comme le nom le dit, DeveloperKit est le plus grand kit d\'interface utilisateur à flutter. C\'est la bibliothèque ultime des modèles d\'applications UI de flutter combinés dans un kit d\'interface utilisateur de haute qualité pour les développeurs Android et les développeurs iOS. La collection se compose de kits d\'interface utilisateur, d\'applications complètes et de thèmes d\'interface utilisateur. Avec sa base de code propre et de code unique, cet ensemble de kit d\'application d\'applications et de thèmes d\'UI de mélange, c\'est facilement votre solution autonome.';
 }

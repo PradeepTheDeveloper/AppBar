@@ -143,7 +143,7 @@ class CPProfileFragmentState extends State<CPProfileFragment> {
                               .launch(context);
                         } else if (index == 2) {
                           String url =
-                              'https://wordpress.iqonic.design/docs/product/prokit-flutter/';
+                              'https://wordpress.iqonic.design/docs/product/DeveloperKit-flutter/';
                           launch(url);
                         } else if (index == 3) {
                           toast("Setting");

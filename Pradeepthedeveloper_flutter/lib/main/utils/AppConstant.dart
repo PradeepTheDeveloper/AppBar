@@ -46,14 +46,15 @@ const profileImage =
 const isDarkModeOnPref = 'isDarkModeOnPref';
 const dateFormat = 'MMM dd, yyyy';
 
-const BaseUrl = 'https://assets.iqonic.design/old-themeforest-images/prokit';
+const BaseUrl =
+    'https://assets.iqonic.design/old-themeforest-images/DeveloperKit';
 const SourceCodeUrl =
-    'https://codecanyon.net/item/prokit-flutter-app-ui-design-templete-kit/25787190?s_rank=11';
+    'https://codecanyon.net/item/DeveloperKit-flutter-app-ui-design-templete-kit/25787190?s_rank=11';
 const PlayStoreUrl = 'https://play.google.com/store/apps/details?id=';
 const DocumentationUrl =
-    'https://wordpress.iqonic.design/docs/product/prokit-flutter/';
+    'https://wordpress.iqonic.design/docs/product/DeveloperKit-flutter/';
 const ChangeLogsUrl =
-    'https://wordpress.iqonic.design/docs/product/prokit-flutter/updates/change-logs/';
+    'https://wordpress.iqonic.design/docs/product/DeveloperKit-flutter/updates/change-logs/';
 
 const bannerAdIdForAndroidRelease = "ca-app-pub-1399327544318575/5026584528";
 const bannerAdIdForAndroid = "ca-app-pub-3940256099942544/6300978111";

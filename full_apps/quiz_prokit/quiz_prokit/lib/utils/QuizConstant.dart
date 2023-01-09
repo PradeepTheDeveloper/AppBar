@@ -18,5 +18,5 @@ const spacing_standard_new = 16.0;
 
 const isDarkModeOnPref = 'isDarkModeOnPref';
 
-const BaseUrl = 'https://assets.iqonic.design/old-themeforest-images/prokit';
-
+const BaseUrl =
+    'https://assets.iqonic.design/old-themeforest-images/DeveloperKit';

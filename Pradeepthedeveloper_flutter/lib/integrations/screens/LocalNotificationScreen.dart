@@ -164,7 +164,7 @@ class LocalNotificationScreenState extends State<LocalNotificationScreen> {
         BigPictureStyleInformation(
       DrawableResourceAndroidBitmap("app_icon"),
       largeIcon: DrawableResourceAndroidBitmap("app_icon"),
-      contentTitle: 'prokit notification',
+      contentTitle: 'DeveloperKit notification',
     );
 
     AndroidNotificationDetails bigPictureNoti = AndroidNotificationDetails(
@@ -185,7 +185,7 @@ class LocalNotificationScreenState extends State<LocalNotificationScreen> {
         "this is use to show an inbox style notification in flutter",
         "this is use for more show more text content in flutter"
       ],
-      contentTitle: "Prokit Flutter",
+      contentTitle: "DeveloperKit Flutter",
     );
 
     AndroidNotificationDetails infoNotification = AndroidNotificationDetails(

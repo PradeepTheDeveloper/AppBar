@@ -29,9 +29,12 @@ List<DatingAppModel> getInterests() {
 List<DatingAppModel> getSettingData() {
   List<DatingAppModel> list = [];
   list.add(DatingAppModel(name: 'Edit your profile'));
-  list.add(DatingAppModel(name: 'Change your password', widget: DAChangePasswordScreen()));
-  list.add(DatingAppModel(name: 'Change your location', widget: DALocationScreen()));
-  list.add(DatingAppModel(name: 'Notifications', widget: DANotificationScreen()));
+  list.add(DatingAppModel(
+      name: 'Change your password', widget: DAChangePasswordScreen()));
+  list.add(
+      DatingAppModel(name: 'Change your location', widget: DALocationScreen()));
+  list.add(
+      DatingAppModel(name: 'Notifications', widget: DANotificationScreen()));
 
   return list;
 }
@@ -41,18 +44,32 @@ List<DatingAppModel> getNotificationList() {
   list.add(DatingAppModel(name: 'All Notifications', mISCheck: true));
   list.add(DatingAppModel(name: 'Message Notification', mISCheck: false));
   list.add(DatingAppModel(name: 'Match Notification', mISCheck: false));
-  list.add(DatingAppModel(name: 'Receive Notification by Mail', mISCheck: false));
-  list.add(DatingAppModel(name: 'Receive Notification by SMS', mISCheck: false));
+  list.add(
+      DatingAppModel(name: 'Receive Notification by Mail', mISCheck: false));
+  list.add(
+      DatingAppModel(name: 'Receive Notification by SMS', mISCheck: false));
 
   return list;
 }
 
 List<DatingAppModel> getIdealList() {
   List<DatingAppModel> list = [];
-  list.add(DatingAppModel(name: 'Love', widget: Icon(Icons.favorite_border, color: white), color: redColor.withOpacity(0.7)));
-  list.add(DatingAppModel(name: 'Friend', widget: Icon(Icons.person_outline, color: white), color: royalBlue.withOpacity(0.7)));
-  list.add(DatingAppModel(name: 'Fling', widget: Icon(Icons.flip_camera_ios_outlined, color: white), color: mediumTurquoise.withOpacity(0.7)));
-  list.add(DatingAppModel(name: 'Business', widget: Icon(Icons.business, color: white), color: goldenRod.withOpacity(0.7)));
+  list.add(DatingAppModel(
+      name: 'Love',
+      widget: Icon(Icons.favorite_border, color: white),
+      color: redColor.withOpacity(0.7)));
+  list.add(DatingAppModel(
+      name: 'Friend',
+      widget: Icon(Icons.person_outline, color: white),
+      color: royalBlue.withOpacity(0.7)));
+  list.add(DatingAppModel(
+      name: 'Fling',
+      widget: Icon(Icons.flip_camera_ios_outlined, color: white),
+      color: mediumTurquoise.withOpacity(0.7)));
+  list.add(DatingAppModel(
+      name: 'Business',
+      widget: Icon(Icons.business, color: white),
+      color: goldenRod.withOpacity(0.7)));
 
   return list;
 }
@@ -191,20 +208,40 @@ List<DAMessageModel> getChatMsgData() {
 
 List<DatingAppModel> getInboxData() {
   List<DatingAppModel> list = [];
-  list.add(DatingAppModel(name: 'Arlene McCoy', subTitle: 'Student', image: 'images/Image.1.jpg'));
-  list.add(DatingAppModel(name: 'Jerome Bell', subTitle: 'Student', image: 'images/Image.2.jpg'));
-  list.add(DatingAppModel(name: 'Wade Warren', subTitle: 'Student', image: 'images/Image.14.jpg'));
-  list.add(DatingAppModel(name: 'Darlene', subTitle: 'Student', image: 'images/Image.3.jpg'));
-  list.add(DatingAppModel(name: 'Leslie Alexander', subTitle: 'Student', image: 'images/Image.4.jpg'));
-  list.add(DatingAppModel(name: 'Jacob Jones', subTitle: 'Student', image: 'images/Image.5.jpg'));
-  list.add(DatingAppModel(name: 'Wade Warren', subTitle: 'Student', image: 'images/Image.6.jpg'));
-  list.add(DatingAppModel(name: 'Cameron', subTitle: 'Wade Warren', image: 'images/Image.7.jpg'));
-  list.add(DatingAppModel(name: 'Eleanor Pena', subTitle: 'Wade Warren', image: 'images/Image.8.jpg'));
-  list.add(DatingAppModel(name: 'Jacob Jones', subTitle: 'Student', image: 'images/Image.9.jpg'));
-  list.add(DatingAppModel(name: 'Leslie Alexander', subTitle: 'Student', image: 'images/Image.10.jpg'));
-  list.add(DatingAppModel(name: 'Darlene', subTitle: 'Student', image: 'images/Image.11.jpg'));
-  list.add(DatingAppModel(name: 'Wade Warren', subTitle: 'Student', image: 'images/Image.12.jpg'));
-  list.add(DatingAppModel(name: 'Darlene', subTitle: 'Student', image: 'images/Image.13.jpg'));
+  list.add(DatingAppModel(
+      name: 'Arlene McCoy', subTitle: 'Student', image: 'images/Image.1.jpg'));
+  list.add(DatingAppModel(
+      name: 'Jerome Bell', subTitle: 'Student', image: 'images/Image.2.jpg'));
+  list.add(DatingAppModel(
+      name: 'Wade Warren', subTitle: 'Student', image: 'images/Image.14.jpg'));
+  list.add(DatingAppModel(
+      name: 'Darlene', subTitle: 'Student', image: 'images/Image.3.jpg'));
+  list.add(DatingAppModel(
+      name: 'Leslie Alexander',
+      subTitle: 'Student',
+      image: 'images/Image.4.jpg'));
+  list.add(DatingAppModel(
+      name: 'Jacob Jones', subTitle: 'Student', image: 'images/Image.5.jpg'));
+  list.add(DatingAppModel(
+      name: 'Wade Warren', subTitle: 'Student', image: 'images/Image.6.jpg'));
+  list.add(DatingAppModel(
+      name: 'Cameron', subTitle: 'Wade Warren', image: 'images/Image.7.jpg'));
+  list.add(DatingAppModel(
+      name: 'Eleanor Pena',
+      subTitle: 'Wade Warren',
+      image: 'images/Image.8.jpg'));
+  list.add(DatingAppModel(
+      name: 'Jacob Jones', subTitle: 'Student', image: 'images/Image.9.jpg'));
+  list.add(DatingAppModel(
+      name: 'Leslie Alexander',
+      subTitle: 'Student',
+      image: 'images/Image.10.jpg'));
+  list.add(DatingAppModel(
+      name: 'Darlene', subTitle: 'Student', image: 'images/Image.11.jpg'));
+  list.add(DatingAppModel(
+      name: 'Wade Warren', subTitle: 'Student', image: 'images/Image.12.jpg'));
+  list.add(DatingAppModel(
+      name: 'Darlene', subTitle: 'Student', image: 'images/Image.13.jpg'));
 
   return list;
 }
@@ -215,159 +252,182 @@ List<DatingAppModel> getAllListData() {
       subTitle1: 'Was great hanging out',
       name: 'Eleanor Pena',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
       age: 27,
       education: 'Bachelor of Arts'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Arlene McCoy',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.1.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.1.jpg',
       age: 25,
       education: 'Software Developer'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Jerome Bell',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.2.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.2.jpg',
       age: 28,
       education: 'B.Sc in Physiology'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Wade Warren',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.3.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.3.jpg',
       age: 23,
       education: 'Instrument Mechanic'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Darlene',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.4.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.4.jpg',
       age: 24,
       education: 'Stenography English'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Leslie Alexander',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.5.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.5.jpg',
       age: 26,
       education: 'Insurance Agent'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Jacob Jones',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.6.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.6.jpg',
       age: 21,
       education: 'Basic Cosmetology'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Wade Warren',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.7.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.7.jpg',
       age: 24,
       education: 'Marketing Executive'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Cameron',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.8.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.8.jpg',
       age: 22,
       education: 'Architectural Assistant'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Jacob Jones',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.10.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.10.jpg',
       age: 24,
       education: 'Software Developer'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out',
       name: 'Leslie Alexander',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.11.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.11.jpg',
       age: 22,
       education: 'B.Sc inin Physiology'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Darlene',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.12.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.12.jpg',
       age: 21,
       education: 'Instrument Mechanic'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Wade Warren',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.13.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.13.jpg',
       age: 25,
       education: 'Stenography English'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Jerome Bell',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.15.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.15.jpg',
       age: 24,
       education: 'Insurance Agent'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Wade Warren',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.16.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.16.jpg',
       age: 23,
       education: 'Basic Cosmetology'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Darlene',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.17.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.17.jpg',
       age: 25,
       education: 'Marketing Executive'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Leslie Alexander',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.18.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.18.jpg',
       age: 26,
       education: 'Architectural Assistant'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Jacob Jones',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.19.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.19.jpg',
       age: 26,
       education: 'Bachelor of Arts'));
   list.add(DatingAppModel(
       subTitle1: 'Was great hanging out!',
       name: 'Wade Warren',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.20.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.20.jpg',
       age: 22,
       education: 'Insurance Agent'));
   list.add(DatingAppModel(
       subTitle1: 'Wade Warren',
       name: 'Cameron',
       subTitle: 'Student',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.21.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.21.jpg',
       age: 24,
       education: 'Basic Cosmetology'));
   list.add(DatingAppModel(
       name: 'Ayush Mehra ',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.22.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.22.jpg',
       subTitle1: 'Was great hanging out!',
       subTitle: 'Student',
       age: 22,
       education: 'Marketing Executive'));
   list.add(DatingAppModel(
       name: 'Barkha Singh',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.23.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.23.jpg',
       subTitle1: 'Wade Warren',
       subTitle: 'Student',
       age: 26,
       education: 'Architectural Assistant'));
   list.add(DatingAppModel(
       name: 'Barkha Singh',
-      image: 'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.24.jpg',
+      image:
+          'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.24.jpg',
       subTitle1: 'Wade Warren',
       subTitle: 'Student',
       age: 23,
@@ -380,9 +440,29 @@ List<DatingAppModel> get getDatingAppUser => getAllListData()..shuffle();
 
 List<LanguageDataModel> languageList() {
   return [
-    LanguageDataModel(id: 1, name: 'English', languageCode: 'en', fullLanguageCode: 'en-US', flag: 'images/flag/ic_us.png'),
-    LanguageDataModel(id: 2, name: 'Hindi', languageCode: 'hi', fullLanguageCode: 'hi-IN', flag: 'images/flag/ic_hi.png'),
-    LanguageDataModel(id: 3, name: 'Arabic', languageCode: 'ar', fullLanguageCode: 'ar-AR', flag: 'images/flag/ic_ar.png'),
-    LanguageDataModel(id: 4, name: 'French', languageCode: 'fr', fullLanguageCode: 'fr-FR', flag: 'images/flag/ic_fr.png'),
+    LanguageDataModel(
+        id: 1,
+        name: 'English',
+        languageCode: 'en',
+        fullLanguageCode: 'en-US',
+        flag: 'images/flag/ic_us.png'),
+    LanguageDataModel(
+        id: 2,
+        name: 'Hindi',
+        languageCode: 'hi',
+        fullLanguageCode: 'hi-IN',
+        flag: 'images/flag/ic_hi.png'),
+    LanguageDataModel(
+        id: 3,
+        name: 'Arabic',
+        languageCode: 'ar',
+        fullLanguageCode: 'ar-AR',
+        flag: 'images/flag/ic_ar.png'),
+    LanguageDataModel(
+        id: 4,
+        name: 'French',
+        languageCode: 'fr',
+        fullLanguageCode: 'fr-FR',
+        flag: 'images/flag/ic_fr.png'),
   ];
 }

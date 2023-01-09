@@ -155,9 +155,10 @@ class LanguageAr extends BaseLanguage {
   String get lblVersion => 'الإصدار';
 
   @override
-  String get lblProkitUIDesignKit => 'Prokit - Flutter app ui تصميم قالب كيت';
+  String get lblProkitUIDesignKit =>
+      'DeveloperKit - Flutter app ui تصميم قالب كيت';
 
   @override
   String get lblAboutUsDescription =>
-      'كما يقول الاسم، Prokit هو أكبر مجموعة رفرفة UI. إنها مكتبة Ultimate of Flutter UI Templates مجتمعة في مجموعة UI عالية الجودة للمطورين Android ومطوري iOS. تتكون المجموعة من مجموعات التطبيقات واجهة المستخدم، وتطبيقات كاملة، وسمات واجهة المستخدم. مع وجود رمز نظيف وقاعدة شفرة واحدة، هذه المجموعة من Mix App UI KIT و UI Themes، فهي سهولة حلنا المستقل.';
+      'كما يقول الاسم، DeveloperKit هو أكبر مجموعة رفرفة UI. إنها مكتبة Ultimate of Flutter UI Templates مجتمعة في مجموعة UI عالية الجودة للمطورين Android ومطوري iOS. تتكون المجموعة من مجموعات التطبيقات واجهة المستخدم، وتطبيقات كاملة، وسمات واجهة المستخدم. مع وجود رمز نظيف وقاعدة شفرة واحدة، هذه المجموعة من Mix App UI KIT و UI Themes، فهي سهولة حلنا المستقل.';
 }

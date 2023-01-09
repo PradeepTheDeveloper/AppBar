@@ -17,9 +17,9 @@
 	<key>BUNDLE_ID</key>
 	<string>com.iqonic.prokitflutter1</string>
 	<key>PROJECT_ID</key>
-	<string>prokit-flutter</string>
+	<string>DeveloperKit-flutter</string>
 	<key>STORAGE_BUCKET</key>
-	<string>prokit-flutter.appspot.com</string>
+	<string>DeveloperKit-flutter.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,6 +33,6 @@
 	<key>GOOGLE_APP_ID</key>
 	<string>1:390414775798:ios:8fcdfd0c8c0607f2aa03d7</string>
 	<key>DATABASE_URL</key>
-	<string>https://prokit-flutter.firebaseio.com</string>
+	<string>https://DeveloperKit-flutter.firebaseio.com</string>
 </dict>
 </plist>

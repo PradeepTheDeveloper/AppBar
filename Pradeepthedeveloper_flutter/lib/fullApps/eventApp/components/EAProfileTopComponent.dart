@@ -162,7 +162,7 @@ class _EAProfileTopComponentState extends State<EAProfileTopComponent> {
             Positioned(
               top: 130,
               child: commonCachedNetworkImage(
-                'https://assets.iqonic.design/old-themeforest-images/prokit/datingApp/Image.9.jpg',
+                'https://assets.iqonic.design/old-themeforest-images/DeveloperKit/datingApp/Image.9.jpg',
                 height: 100,
                 width: 100,
                 fit: BoxFit.cover,

@@ -1,9 +1,9 @@
 {
   "project_info": {
     "project_number": "390414775798",
-    "firebase_url": "https://prokit-flutter.firebaseio.com",
-    "project_id": "prokit-flutter",
-    "storage_bucket": "prokit-flutter.appspot.com"
+    "firebase_url": "https://DeveloperKit-flutter.firebaseio.com",
+    "project_id": "DeveloperKit-flutter",
+    "storage_bucket": "DeveloperKit-flutter.appspot.com"
   },
   "client": [
     {

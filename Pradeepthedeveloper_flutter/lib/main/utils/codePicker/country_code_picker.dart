@@ -69,7 +69,7 @@ class CountryCodePicker extends StatefulWidget {
               code: s['code'],
               dialCode: s['dial_code'],
               flagUri:
-                  'https://iqonic.design/themeforest-images/prokit/images/flags/${s['code'].toLowerCase()}.png',
+                  'https://iqonic.design/themeforest-images/DeveloperKit/images/flags/${s['code'].toLowerCase()}.png',
             ))
         .toList();
 
