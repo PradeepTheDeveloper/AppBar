@@ -1,0 +1,64 @@
+import 'package:flutter/material.dart';
+import 'package:pradeep_the_developer/main.dart';
+import 'package:pradeep_the_developer/main/model/ListModels.dart';
+import 'package:pradeep_the_developer/main/utils/AppWidget.dart';
+import 'package:nb_utils/nb_utils.dart';
+
+class IMLongPressDraggableScreen extends StatefulWidget {
+  static String tag = '/IMLongPressDraggableScreen';
+
+  @override
+  _IMLongPressDraggableScreenState createState() =>
+      _IMLongPressDraggableScreenState();
+}
+
+class _IMLongPressDraggableScreenState
+    extends State<IMLongPressDraggableScreen> {
+  Offset position = Offset(20.0, 20.0);
+
+  @override
+  void initState() {
+    super.initState();
+    init();
+  }
+
+  init() async {
+    //
+  }
+
+  @override
+  void setState(fn) {
+    if (mounted) super.setState(fn);
+  }
+
+  List<ListModel> example = [
+    ListModel(
+      name: 'Drawable',
+    ),
+    ListModel(
+      name: 'Drawable',
+    ),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+          backgroundColor: context.scaffoldBackgroundColor,
+          appBar: appBar(context, 'LongPressDraggable'),
+          body: ListView.builder(
+              itemCount: example.length,
+              itemBuilder: (BuildContext context, index) {
+                return ExampleItemWidget(
+                  example[index],
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => example[index].widget!));
+                  },
+                );
+              })),
+    );
+  }
+}

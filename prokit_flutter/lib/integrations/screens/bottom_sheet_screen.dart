@@ -1,0 +1,72 @@
+import 'package:flutter/material.dart';
+import 'package:nb_utils/nb_utils.dart';
+import 'package:pradeep_the_developer/main.dart';
+import 'package:pradeep_the_developer/main/utils/AppColors.dart';
+import 'package:pradeep_the_developer/main/utils/AppWidget.dart';
+import 'package:pradeep_the_developer/main/utils/Lipsum.dart' as lipsum;
+
+class BottomSheetScreen extends StatefulWidget {
+  static String tag = '/BottomSheetScreen';
+
+  @override
+  BottomSheetScreenState createState() => BottomSheetScreenState();
+}
+
+class BottomSheetScreenState extends State<BottomSheetScreen> {
+  var aText = lipsum.createParagraph(numParagraphs: 1);
+
+  @override
+  void initState() {
+    changeStatusColor(appStore.scaffoldBackground!);
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    changeStatusColor(appStore.scaffoldBackground!);
+    super.dispose();
+  }
+
+  showBottomSheetDialog(context) async {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      builder: (context) {
+        return SingleChildScrollView(
+          child: Column(
+            children: [
+              Image.network('https://picsum.photos/seed/picsum/200/300',
+                  height: 200,
+                  width: MediaQuery.of(context).size.width,
+                  fit: BoxFit.fitWidth),
+              SizedBox(height: 10),
+              Padding(
+                  padding: EdgeInsets.only(left: 16, right: 16, top: 8),
+                  child: text(aText, isLongText: true)),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: appBar(context, "Bottom Sheet"),
+      body: Center(
+        child: ListView(
+          padding: EdgeInsets.all(16),
+          shrinkWrap: true,
+          children: <Widget>[
+            MaterialButton(
+              color: appColorPrimary,
+              onPressed: () => showBottomSheetDialog(context),
+              child: Text('Show BottomSheet', style: primaryTextStyle()),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
